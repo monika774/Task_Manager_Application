@@ -18,11 +18,11 @@ services:
   db:
     image: postgres:15  # Use the  PostgreSQL image, version 15
     container_name: postgres_container  # Name of the container for the PostgreSQL database
-    restart: always  # Ensure the container restarts if it crashes or bug is there
+    restart: always  # the container restarts if it crashes or bug is there
     environment:
-      POSTGRES_USER: postgres  # Set the PostgreSQL user
-      POSTGRES_PASSWORD: root  # Set the PostgreSQL password
-      POSTGRES_DB: db_task_manager  # Set the name of the database to create
+      POSTGRES_USER: postgres  # PostgreSQL user acc to tool
+      POSTGRES_PASSWORD: root  # PostgreSQL password acc to tool
+      POSTGRES_DB: db_task_manager  # Set the name of the database to which u create
     ports:
       - "5432:5432"  # Map port 5432 from container to port 5432 on the host machine
     volumes:
@@ -30,4 +30,4 @@ services:
 
 # volumes for persistent data storage
 volumes:
-  postgres_data:  # This volume will store PostgreSQL data
+  postgres_data:  # This is for the volume will store PostgreSQL data

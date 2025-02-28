@@ -470,3 +470,42 @@ TypeError: The view function did not return a valid response. The return type mu
 2025-02-28 11:38:02,087 - INFO - 127.0.0.1 - - [28/Feb/2025 11:38:02] "GET / HTTP/1.1" 200 -
 2025-02-28 11:38:02,124 - INFO - 127.0.0.1 - - [28/Feb/2025 11:38:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-02-28 11:38:02,124 - INFO - 127.0.0.1 - - [28/Feb/2025 11:38:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 11:47:18,715 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:18] "GET / HTTP/1.1" 200 -
+2025-02-28 11:47:18,796 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-02-28 11:47:18,796 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:18] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-02-28 11:47:19,382 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-28 11:47:54,160 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:54] "OPTIONS /register HTTP/1.1" 200 -
+2025-02-28 11:47:54,798 - INFO - New user registered: Anishka
+2025-02-28 11:47:54,798 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:54] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-02-28 11:47:57,120 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:57] "OPTIONS /login HTTP/1.1" 200 -
+2025-02-28 11:47:57,775 - INFO - User logged in: Anishka
+2025-02-28 11:47:57,775 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:57] "POST /login HTTP/1.1" 200 -
+2025-02-28 11:47:57,798 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:57] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-02-28 11:47:58,121 - INFO - Tasks retrieved for user: Anishka
+2025-02-28 11:47:58,121 - INFO - 127.0.0.1 - - [28/Feb/2025 11:47:58] "GET /tasks HTTP/1.1" 200 -
+2025-02-28 11:48:07,679 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:07] "GET / HTTP/1.1" 200 -
+2025-02-28 11:48:07,744 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 11:48:07,773 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 11:48:07,889 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:07] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-02-28 11:48:08,223 - INFO - Tasks retrieved for user: Anishka
+2025-02-28 11:48:08,225 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:08] "GET /tasks HTTP/1.1" 200 -
+2025-02-28 11:48:40,901 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:40] "GET / HTTP/1.1" 200 -
+2025-02-28 11:48:40,965 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 11:48:40,972 - INFO - 127.0.0.1 - - [28/Feb/2025 11:48:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 11:49:36,538 - INFO - 127.0.0.1 - - [28/Feb/2025 11:49:36] "GET / HTTP/1.1" 200 -
+2025-02-28 11:49:36,769 - INFO - 127.0.0.1 - - [28/Feb/2025 11:49:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 11:49:36,799 - INFO - 127.0.0.1 - - [28/Feb/2025 11:49:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 11:50:01,860 - INFO - 127.0.0.1 - - [28/Feb/2025 11:50:01] "OPTIONS /login HTTP/1.1" 200 -
+2025-02-28 11:50:02,423 - INFO - User logged in: Monika Kohale
+2025-02-28 11:50:02,423 - INFO - 127.0.0.1 - - [28/Feb/2025 11:50:02] "POST /login HTTP/1.1" 200 -
+2025-02-28 11:50:02,443 - INFO - 127.0.0.1 - - [28/Feb/2025 11:50:02] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-02-28 11:50:02,758 - INFO - Tasks retrieved for user: Monika Kohale
+2025-02-28 11:50:02,758 - INFO - 127.0.0.1 - - [28/Feb/2025 11:50:02] "GET /tasks HTTP/1.1" 200 -
+2025-02-28 12:05:26,634 - INFO - Starting Flask application...
+2025-02-28 12:05:26,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-28 12:05:26,716 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 12:06:09,616 - INFO - 127.0.0.1 - - [28/Feb/2025 12:06:09] "GET / HTTP/1.1" 200 -
+2025-02-28 12:06:10,060 - INFO - 127.0.0.1 - - [28/Feb/2025 12:06:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 12:06:10,170 - INFO - 127.0.0.1 - - [28/Feb/2025 12:06:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 12:06:10,242 - INFO - 127.0.0.1 - - [28/Feb/2025 12:06:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

@@ -1,10 +1,10 @@
-# Use the official Python image
+# Use the Python image which present ur Desktop
 FROM python:3.10
 
 # Set the working directory inside the container
 WORKDIR /python-flask-app
 
-# Copy the requirements file into the container and dependies
+# Copy the requirements file into the container and dependies with libraries
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV PYTHONUNBUFFERED=1 \
     ENV_FOLDER=env  
 
-# Copy the application code
+# Copy the application code 
 COPY . .
 
 # Expose the application port

@@ -157,9 +157,6 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
     logging.info("Starting Flask application...")
-    app.run()
+    app.run(host='0.0.0.0',debug = True)
 
 
-# chmod 400 devops-vm.pem
-# ssh -i devops-vm.pem <username>@65.2.34.175
-# ssh -i devops-vm.pem monika@65.2.34.175

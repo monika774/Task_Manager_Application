@@ -441,3 +441,32 @@ TypeError: The view function did not return a valid response. The return type mu
 2025-02-28 11:01:25,314 - INFO - 127.0.0.1 - - [28/Feb/2025 11:01:25] "OPTIONS /tasks HTTP/1.1" 200 -
 2025-02-28 11:01:25,589 - INFO - Task created: jr .engg by user: Monika Kohale
 2025-02-28 11:01:25,593 - INFO - 127.0.0.1 - - [28/Feb/2025 11:01:25] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-02-28 11:14:53,946 - INFO - Starting Flask application...
+2025-02-28 11:14:53,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-28 11:14:53,979 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 11:37:18,176 - INFO - Starting Flask application...
+2025-02-28 11:37:18,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-28 11:37:18,250 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 11:37:45,961 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:45] "GET / HTTP/1.1" 200 -
+2025-02-28 11:37:46,466 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 11:37:46,516 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 11:37:46,868 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-28 11:37:47,173 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:47] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-02-28 11:37:47,461 - INFO - Tasks retrieved for user: Monika Kohale
+2025-02-28 11:37:47,462 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:47] "GET /tasks HTTP/1.1" 200 -
+2025-02-28 11:37:49,206 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:49] "GET / HTTP/1.1" 200 -
+2025-02-28 11:37:49,265 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 11:37:49,297 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-02-28 11:37:49,529 - INFO - Tasks retrieved for user: Monika Kohale
+2025-02-28 11:37:49,531 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:49] "GET /tasks HTTP/1.1" 200 -
+2025-02-28 11:37:55,218 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:55] "OPTIONS /login HTTP/1.1" 200 -
+2025-02-28 11:37:55,846 - INFO - User logged in: Monika Kohale
+2025-02-28 11:37:55,846 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:55] "POST /login HTTP/1.1" 200 -
+2025-02-28 11:37:55,874 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:55] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-02-28 11:37:56,179 - INFO - Tasks retrieved for user: Monika Kohale
+2025-02-28 11:37:56,179 - INFO - 127.0.0.1 - - [28/Feb/2025 11:37:56] "GET /tasks HTTP/1.1" 200 -
+2025-02-28 11:38:02,087 - INFO - 127.0.0.1 - - [28/Feb/2025 11:38:02] "GET / HTTP/1.1" 200 -
+2025-02-28 11:38:02,124 - INFO - 127.0.0.1 - - [28/Feb/2025 11:38:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-02-28 11:38:02,124 - INFO - 127.0.0.1 - - [28/Feb/2025 11:38:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
